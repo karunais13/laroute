@@ -1,10 +1,10 @@
 <?php
 
-namespace Lord\Laroute\Routes;
+namespace Karu\Laroute\Routes;
 
 use Illuminate\Routing\Route;
 use Illuminate\Routing\RouteCollection;
-use Lord\Laroute\Routes\Exceptions\ZeroRoutesException;
+use Karu\Laroute\Routes\Exceptions\ZeroRoutesException;
 
 class Collection extends \Illuminate\Support\Collection
 {

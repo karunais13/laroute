@@ -1,9 +1,9 @@
 <?php
 
-namespace Lord\Laroute\Console\Commands;
+namespace Karu\Laroute\Console\Commands;
 
-use Lord\Laroute\Routes\Collection as Routes;
-use Lord\Laroute\Generators\GeneratorInterface as Generator;
+use Karu\Laroute\Routes\Collection as Routes;
+use Karu\Laroute\Generators\GeneratorInterface as Generator;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Console\Command;
@@ -36,14 +36,14 @@ class LarouteGeneratorCommand extends Command
     /**
      * An array of all the registered routes.
      *
-     * @var \Lord\Laroute\Routes\Collection
+     * @var \Karu\Laroute\Routes\Collection
      */
     protected $routes;
 
     /**
      * The generator instance.
      *
-     * @var \Lord\Laroute\Generators\GeneratorInterface
+     * @var \Karu\Laroute\Generators\GeneratorInterface
      */
     protected $generator;
 
