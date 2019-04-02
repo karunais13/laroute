@@ -24,7 +24,9 @@ Install the usual [composer](https://getcomposer.org/) way.
 
 n.b Laravel 4.x users, check out [version 1.3.2](https://github.com/aaronlord/laroute/tree/v1.3.2)
 
-###### app/config/app.php
+
+#### For Laravel 5.5 and below add provider in config file like below : 
+###### app/config/app.php 
 ```php
 	...
 	
@@ -35,6 +37,7 @@ n.b Laravel 4.x users, check out [version 1.3.2](https://github.com/aaronlord/la
 	
 	...
 ```
+#
 
 ### Configure (optional)
 
