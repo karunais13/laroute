@@ -13,13 +13,9 @@ This package allows us to port our routes over to JavaScript, and gives us a bun
 
 Install the usual [composer](https://getcomposer.org/) way.
 
-###### composer.json
+###### Run this command at root directory of your project
 ```json
-{
-	"require" : {
-		"lord/laroute" : "2.*"
-	}
-}
+"composer require karu/laroute"
 ```
 
 n.b Laravel 4.x users, check out [version 1.3.2](https://github.com/aaronlord/laroute/tree/v1.3.2)
