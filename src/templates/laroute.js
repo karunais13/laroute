@@ -5,7 +5,7 @@
         var routes = {
 
             absolute: $ABSOLUTE$,
-            rootUrl: '$ROOTURL$',
+            rootUrl: window.location.host,
             routes : $ROUTES$,
             prefix: '$PREFIX$',
 
